@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cryptoly - Cryptocurrency Converter</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+    }
+    .navbar {
+      background-color: #343a40;
+    }
+    .navbar-brand {
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 24px;
+    }
+    .navbar-nav .nav-link {
+      color: #ffffff;
+      font-weight: bold;
+    }
+    .cover-image {
+      height: 500px;
+      background-image: url('cover-image.jpg');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .cover-text {
+      color: #ffffff;
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    .btn-primary {
+      font-weight: bold;
+      font-size: 18px;
+      border-radius: 25px;
+    }
+    .feature {
+      margin-top: 50px;
+      text-align: center;
+    }
+    .feature img {
+      width: 300px;
+      height: 200px;
+      border-radius: 15px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+    .feature img:hover {
+      transform: scale(1.1);
+    }
+    .feature-name {
+      font-weight: bold;
+      font-size: 24px;
+      margin-top: 20px;
+    }
+    .feature-description {
+      font-size: 18px;
+    }
+    .testimonial {
+      background-color: #ffffff;
+      border-radius: 15px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      margin-bottom: 30px;
+    }
+    .testimonial-text {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    .testimonial-author {
+      font-weight: bold;
+    }
+    footer {
+      background-color: #343a40;
+      color: #ffffff;
+      padding: 20px 0;
+    }
+    footer p {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Cryptoly</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#key-features">Key Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project-application">Project Application</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Cover Image -->
+  <div class="cover-image">
+    <div class="cover-text">
+      Cryptoly - Cryptocurrency Converter
+      <p class="mt-4">Convert cryptocurrency to USD and vice versa with ease.</p>
+    </div>
+    <a href="https://yourproject.com" class="btn btn-primary mt-4">Try it now</a>
+  </div>
+
+  <!-- Key Features -->
+  <div id="key-features" class="feature">
+    <div class="container">
+      <h2>Key Features</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="feature1.jpg" alt="Feature 1">
+          <div class="feature-name">Real-Time Conversion</div>
+          <div class="feature-description">Get accurate conversion rates with real-time data from top cryptocurrency APIs.</div>
+        </div>
+        <div class="col-md-4">
+          <img src="feature2.jpg" alt="Feature 2">
+          <div class="feature-name">User-Friendly Interface</div>
+          <div class="feature-description">An intuitive and easy-to-use interface for seamless cryptocurrency conversion.</div>
+        </div>
+        <div class="col-md-4">
+          <img src="feature3.jpg" alt="Feature 3">
+          <div class="feature-name">Secure Transactions</div>
+          <div class="feature-description">Ensure the safety of your transactions with built-in security measures.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimonials Section -->
+  <div id="testimonials" class="feature">
+    <div class="container">
+      <h2 class="text-center mb-5">What Our Users Say</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="testimonial">
+            <p class="testimonial-text">"This is the best crypto converter I've ever used! It's fast, reliable, and easy to understand."</p>
+            <p class="testimonial-author">- John Doe</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial">
+            <p class="testimonial-text">"Cryptoly helped me manage my cryptocurrency portfolio more efficiently. Highly recommended!"</p>
+            <p class="testimonial-author">- Jane Smith</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial">
+            <p class="testimonial-text">"I love the simplicity of Cryptoly. It's perfect for beginners and experts alike."</p>
+            <p class="testimonial-author">- Robert Johnson</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center mt-5 py-4">
+    <p class="mb-0">&copy; 2024 Cryptoly. All rights reserved.</p>
+  </footer>
+  
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
